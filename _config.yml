@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://koffisani.github.io
+title: Koffi Sani on GitHub
+tagline: A log of everyday life
+description: Let me land my everyday coding life here
+paginate: 5
