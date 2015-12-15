@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Ouvrir une fenêtre et fermer la précédente en C#
 layout: post
 tags: [C#, ]
