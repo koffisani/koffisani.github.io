@@ -9,8 +9,12 @@ Vous avez probablement ce problème, comme moi. Lorsque vous avez deux fenêtre,
 `
 private void OnButton1Click(object sender, EventArgs e)
 {
+
     this.Hide(); // on cache la fenêtre courante (la première)
+
     var form2 = new Form(); // on instancie la deuxième fenêtre
+
     form2.Closed += (s, args)=>this.Close(); //On notifie à la première de se fermer au moment où la seconde se ferme
+
     form2.Show(); // on affiche la deuxième
 `
