@@ -3,6 +3,6 @@ pygments: true
 markdown: kramdown
 url: http://koffisani.github.io
 title: Koffi Sani on GitHub
-tagline: A log of everyday life
+tagline: A log of my everyday coding life
 description: Let me land my everyday coding life here
 paginate: 5
