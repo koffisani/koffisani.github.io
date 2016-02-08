@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Lister ses projets dans XAMPP (Linux)
 layout: post
 tags: [xampp, web-development, php]
