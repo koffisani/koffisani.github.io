@@ -43,11 +43,13 @@ Dans le dossier `/opt/lampp/htdocs/` créer le fichier nommé `projects.php` et 
    
   </body>
   </html>
+  ```
 
 ###Modifier le fichier `navi.php`
 Dans le dossier `/opt/lampp/htdocs/xampp/`, insérer dans le fichier `navi.php` le code suivant dans l'endroit qui vous convient : 
 
 ```php
 <a class=n target=content onClick="h(this);" href="/projects.php">Projects</a><br>&nbsp;<br>
+```
 
 Et puis c'est bon.
