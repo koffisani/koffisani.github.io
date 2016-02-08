@@ -8,10 +8,6 @@ layout: nil
  <title>{{ site.title }}</title>
  <link href="{{ site.url }}/atom.xml" rel="self"/>
  <link href="{{ site.url }}/"/>
- <meta name="twitter:card" content="summary" />
- <meta name="twitter:site" content="@koffisani" />
- <meta name="twitter:title" content="Koffi Sani on GitHub" />
- <meta name="twitter:description" content="A log of my everyday coding life" />
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}</id>
  <author>
