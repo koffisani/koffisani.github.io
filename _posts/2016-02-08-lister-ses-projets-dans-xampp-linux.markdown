@@ -7,7 +7,7 @@ categories: [web-development]
 ---
 Si vous avez installé XAMPP sur Linux --Ubuntu 14.04 chez moi--, vous avez probablement remarqué que vous n'avez pas la liste de vos projets (récents). C'est un soucis, il faut saisir le lien (URL) de son projet avant d'y accéder. Au cas où vous voulez palier à cela, suivez ce tutoriel.
 
-## Créer le fichier `projects.php`
+### Créer le fichier `projects.php`
 Dans le dossier `/opt/lampp/htdocs/` créer le fichier nommé `projects.php` et y insérer le contenu suivant : 
 
 ```php
@@ -45,11 +45,13 @@ Dans le dossier `/opt/lampp/htdocs/` créer le fichier nommé `projects.php` et 
   </html>
   ```
 
-###Modifier le fichier `navi.php`
+
+### Modifier le fichier `navi.php`
 Dans le dossier `/opt/lampp/htdocs/xampp/`, insérer dans le fichier `navi.php` le code suivant dans l'endroit qui vous convient : 
 
 ```php
 <a class=n target=content onClick="h(this);" href="/projects.php">Projects</a><br>&nbsp;<br>
 ```
+
 
 Et puis c'est bon.
