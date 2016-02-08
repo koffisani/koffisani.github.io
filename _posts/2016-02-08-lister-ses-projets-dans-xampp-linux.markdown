@@ -45,7 +45,6 @@ Dans le dossier `/opt/lampp/htdocs/` créer le fichier nommé `projects.php` et 
   </html>
   ```
 
-
 ### Modifier le fichier `navi.php`
 Dans le dossier `/opt/lampp/htdocs/xampp/`, insérer dans le fichier `navi.php` le code suivant dans l'endroit qui vous convient : 
 
