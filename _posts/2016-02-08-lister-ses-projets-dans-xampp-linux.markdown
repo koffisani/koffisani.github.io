@@ -15,8 +15,7 @@ Dans le dossier `/opt/lampp/htdocs/` créer le fichier nommé `projects.php` et 
 <html>
   <head>
   <link href="xampp/xampp.css" rel="stylesheet" type="text/css">
-  <title>
-  </title>
+  <title></title>
   <base target="_blank"/>
   </head>
   <body>
@@ -37,12 +36,12 @@ Dans le dossier `/opt/lampp/htdocs/` créer le fichier nommé `projects.php` et 
           $projectContents = "No Projects";
   ?>
    
-  <ul id="projectList">
-      <?php echo $projectContents ?>
-  </ul>
+    <ul id="projectList">
+        <?php echo $projectContents ?>
+    </ul>
    
   </body>
-  </html>
+</html>
 ```
 
 
