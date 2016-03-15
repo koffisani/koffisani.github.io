@@ -14,7 +14,7 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content[:300] }} {{' Lire plus ...'}}
+    {{ post.content[0:300] }} {{' Lire plus ...'}}
   </div>
   {% endfor %}
 </div>
