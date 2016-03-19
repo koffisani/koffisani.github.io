@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
-  {% include head.html %}
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@koffisani" />
-  <meta name="twitter:title" content="Koffi Sani on GitHub" />
-  <meta name="twitter:description" content="A log of my everyday coding life" />
-  <meta name="twitter:image" content="https://lh3.googleusercontent.com/xX4LPo5qHrDCavcvQf9jPiczaqIpgwLAyrJRHMnUMWGq764KtHWeg1qHySVGCLOK7eVF=w1366-h768-rw-no" />
- 
+  <head>
+    {% if site.enforce_ssl %}
+      <!--
+      redirect users to the https version of the website.
+      but: only check when on the production domain, as set in _config.yml.
+      -->
+      <script type="text/javascript">
+        var enforce = "{{ site.enforce_ssl }}";
+        if ((enforce == window.location.host) && (window.location.protocol != "https:"))
+        window.location = window.location.toString().replace(/^http:/, "https:");
+      </script>
+    {% endif %}
+    {% include head.html %}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@koffisani" />
+    <meta name="twitter:title" content="Koffi Sani on GitHub" />
+    <meta name="twitter:description" content="A log of my everyday coding life" />
+    <meta name="twitter:image" content="https://lh3.googleusercontent.com/xX4LPo5qHrDCavcvQf9jPiczaqIpgwLAyrJRHMnUMWGq764KtHWeg1qHySVGCLOK7eVF=w1366-h768-rw-no" />
+  </head> 
   <body>
 
     {% include sidebar.html %}
