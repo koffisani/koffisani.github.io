@@ -23,4 +23,7 @@ services:
       
 #HTTPS enforce
 enforce_ssl : koffisani.github.io
+
+gems:
+  - jekyll-seo-tag
       
