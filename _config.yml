@@ -27,3 +27,20 @@ enforce_ssl : koffisani.github.io
 gems:
   - jekyll-seo-tag
       
+twitter:
+  username: koffisani
+  
+facebook:
+  app_id: 1684328031825738
+  publisher: 1684328031825738
+  
+logo: /img/koffi.jpg
+social: 
+  name: Koffi Sani
+  links: 
+    https://facebook.com/koffisani
+    https://twitter.com/koffisani
+    https://linkedin.com/in/koffisani
+    https://plus.google.com/+koffisani
+
+google_site_verification: googleaf6a5e28ab29fc8d.html
