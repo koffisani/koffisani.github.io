@@ -2,6 +2,7 @@ excerpt_separator: ""
 pygments: true
 markdown: kramdown
 url: https://koffisani.github.io
+highlighter: rouge
 title: Koffi Sani on GitHub
 tagline: A log of my everyday coding life
 description: Let me land my everyday coding life here
