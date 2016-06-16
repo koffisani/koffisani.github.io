@@ -12,12 +12,7 @@ La sécurité sur internet est désormais un défi pour tous. Et, échanger des 
 
 Ceci dénote la nécessité de l'admettre et s'y apprêter déjà. L'utilisation de ce protocole requiert plusieurs pré-requis, parmi lesquels : l'obtention d'un certificat SSL, sa configuration sur son serveur d'hébergement, ... Et après tout, il serait recommandé de ne accepter que des requêtes qui utilisent ce protocole sécurisé. Pour ce faire, on peut par exemple le fichier .htaccess afin de convertir toutes les http en https. Il suffit d'ajouter ce bout de code dans son fichier .htaccess à la racine.
 
-```Apache
-
-###############################################
-#Pour forcer l'utilisation d'une connexion SSL sur votre site web, veuillez placer le contenu suivant dans un fichier .htaccess
-###############################################
-
+```
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{SERVER_NAME}/$1 [R=301,L]
