@@ -4,7 +4,7 @@ title: Forcer l'accès https depuis le fichier htaccess
 layout: post
 tags: [https, sécurité, SSL]
 categories: [Sécurité, https]
-header-img: "img/DSC_1358.JPG"
+header-img: "../img/DSC_1358.JPG"
 ---
 <img src="../img/DSC_1358.JPG" alt="site sécurisé" />
 
