@@ -4,6 +4,7 @@ title: Forcer l'accès https depuis le fichier htaccess
 layout: post
 tags: [https, sécurité, SSL]
 categories: [Sécurité, https]
+header-img: "img/DSC_1358.JPG"
 ---
 La sécurité sur internet est désormais un défi pour tous. Et, échanger des informations sensibles avec ses utilisateurs requiert l'utilisation du protocole https au lieu du http par défaut. Ce protocole est même recommandé, et sera probablement bientôt exigé par Google pour son indexation. WordPress annonçait tout dernièrement son ambition de faire passer tous les sites qui l'utilisent au https.
 
