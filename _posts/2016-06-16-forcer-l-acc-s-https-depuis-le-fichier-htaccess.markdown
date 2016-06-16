@@ -6,7 +6,7 @@ tags: [https, sécurité, SSL]
 categories: [Sécurité, https]
 header-img: "img/DSC_1358.JPG"
 ---
-![alt site sécurisé](https://github.com/koffisani/koffisani.github.io/blob/master/img/DSC_1358.JPG)
+![alt site sécurisé](../img/DSC_1358.JPG)
 
 La sécurité sur internet est désormais un défi pour tous. Et, échanger des informations sensibles avec ses utilisateurs requiert l'utilisation du protocole https au lieu du http par défaut. Ce protocole est même recommandé, et sera probablement bientôt exigé par Google pour son indexation. WordPress annonçait tout dernièrement son ambition de faire passer tous les sites qui l'utilisent au https.
 
