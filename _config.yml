@@ -21,25 +21,32 @@ services:
     class: Twig_Extensions_Extension_Text
     tags:
       - { name: twig.extension }
-      
-      
+
+
 #HTTPS enforce
 enforce_ssl : koffisani.github.io
 
+github: [metadata]
+ kramdown:
+   input: GFM
+   hard_wrap: false
+
 gems:
   - jekyll-seo-tag
-      
+  - jekyll-coffeescript
+  - jekyll-paginate
+
 twitter:
   username: koffisani
-  
+
 facebook:
   app_id: 1684328031825738
   publisher: 1684328031825738
-  
+
 logo: /img/koffi.jpg
-social: 
+social:
   name: Koffi Sani
-  links: 
+  links:
     https://facebook.com/koffisani
     https://twitter.com/koffisani
     https://linkedin.com/in/koffisani
