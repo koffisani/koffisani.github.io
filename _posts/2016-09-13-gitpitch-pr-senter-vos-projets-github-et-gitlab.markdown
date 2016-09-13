@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: GitPitch : Présenter vos projets GitHub et GitLab
 layout: post
 ---
