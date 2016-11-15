@@ -17,4 +17,8 @@ Ainsi, la solution consiste en ce qui suit :
 
 - Accéder aux services `services.msc` en invite de commande ou Panneau de configuration > Outils d'administration > Services
 - Vérifier les services Apachex.x et mysql. Même lorsque vous ne trouvez qu'un seul, il est possible que l'ancienne installation cause un problème à la nouvelle
-- 
+- Exécuter l'invite de commande avec les droits d'administrateur
+- Taper `sc delete <nom_du_service>` (où `<nom_du_service>` est le service à supprimer, ici `Apache2.x`)
+- Taper Entrée pour valider la commande. réactualiser la fenêtre des services pour remarquer que le service n'existe plus.
+
+Redémarrer XAMPP et voilà.
