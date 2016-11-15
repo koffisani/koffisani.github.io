@@ -2,6 +2,8 @@
 published: true
 title: Réinstaller XAMPP Server sur Windows
 layout: post
+tags: [XAMPP]
+categories: [Developpement]
 ---
 Avec l'évolution technologique en vogue, il est obligatoire de passer aux récentes versions afin de profiter des dernières fonctionnalités.
 
