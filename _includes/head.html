@@ -90,3 +90,25 @@
   <meta content="{{ tag }}" property="article:tag">
   {% endfor %}
 {% endif %}
+
+<!-- TWITTER META TAGS -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@koffisani" />
+<meta name="twitter:creator" content="@koffisani" />
+{% if page.description %}
+  <meta content="{{ page.description }}" name="twitter:description">
+{% else %}
+  <meta name="twitter:description" content="{{ site.description }}" />
+{% endif %}
+{% if page.title %}
+  <meta content="{{ page.title }}" name="twitter:title">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}" />
+{% endif %}
+{% if page.header-img %}
+  <meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
+  <meta name="twitter:image:alt" content="{{ site.title }}" />
+{% else %}
+  <meta name="twitter:image" content="{{site.url}}/github.io-image.png" />
+  <meta name="twitter:image:alt" content="{{ site.title }}" />
+{% endif %}
