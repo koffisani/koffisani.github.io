@@ -5,6 +5,7 @@ layout: post
 tags: [LaTeX]
 categories: [Recherche, Article]
 ---
+![Overleaf](img/templates-gallery-overleaf.png)
 Lorsqu'il s'agit du monde scientifique, le sérieux, la discipline et la rigueur ne sont pas négligeables. Les documents produits sont obligés de respecter certains critères. Tant sur le fond que sur la forme. 
 
 Ainsi, `LaTeX` est un langage introduit dans la rédaction des documents scientifiques depuis les années 1983 par [Leslie Lamport](https://fr.wikipedia.org/wiki/Leslie_Lamport) et qui est dérivé du `TeX` de [Donald Knuth](https://fr.wikipedia.org/wiki/Donald_Knuth). Ce langage et ses éditeurs et compilateurs rivalisent toujours le logiciel de traitement de textes Word de Microsoft. L'un des grands défis pour celui qui veut l'utiliser est son installation.
