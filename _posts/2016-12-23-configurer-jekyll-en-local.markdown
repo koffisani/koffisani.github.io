@@ -23,6 +23,7 @@ bundle exec jekyll serve
 
 Vous obtenez une erreur :
 
+
 > jekyll 3.3.1 | Error:  Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
 
 La solution à cette erreur est d'installer `NodeJS` sur votre machine :
