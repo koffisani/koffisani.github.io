@@ -2,7 +2,7 @@
 published: true
 title: Overleaf - l'outil d'édition en ligne des documents pour les scientifiques scientifiques
 description: Overleaf offre une pléthore de modèles de document couvrant l'ensemble des types de documents gérés par LaTeX et le monde scientifique comme article, livre, CV, diapositives
-header-img: img/templates-gallery-overleaf.png
+header-img: templates-gallery-overleaf.png
 layout: post
 tags: [LaTeX]
 categories: [Recherche, Article]

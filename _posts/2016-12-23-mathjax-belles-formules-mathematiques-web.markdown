@@ -2,7 +2,7 @@
 published: true
 title: MathJax - Belles formules mathématiques sur vos pages web
 description: MathJax est une librairie JavaScript permettant aux développeurs de faire interpréter les scripts LaTeX et afficher les formules mathématiques.
-header-img: img/mathjax.png
+header-img: mathjax.png
 layout: post
 tags: [MathJax, maths, web, javascript]
 categories: [Developpement]
