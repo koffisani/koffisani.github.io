@@ -36,6 +36,8 @@ gems:
   - jekyll-seo-tag
   - jekyll-coffeescript
   - jekyll-paginate
+  - jekyll-avatar
+  - jekyl-gist
 
 twitter:
   username: koffisani

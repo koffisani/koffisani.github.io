@@ -195,6 +195,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-avatar (~> 0.4.2)
+  jekyll-mentions (~> 1.2)
   jekyll-seo-tag
 
 BUNDLED WITH
