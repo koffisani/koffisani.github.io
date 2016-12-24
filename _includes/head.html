@@ -48,6 +48,12 @@
     ga('send', 'pageview');
 
   </script>
+<!-- GOOGLE SEO -->
+{% if page.description %}
+  <meta content="{{ page.description }}" name="description">
+{% else %}
+  <meta name="description" content="{{ site.description }}" />
+{% endif %}
 
   <!-- FACEBOOK META TAGS -->
   <!-- facebook Open Graph Metadatas -->
@@ -114,4 +120,4 @@
 {% endif %}
 
 <!-- PICTURE FILL SCRIPT -->
-<script src="/public/js/picturefill.js"></script>
+<!--script src="/public/js/picturefill.min.js" async></script-->

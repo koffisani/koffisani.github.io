@@ -4,7 +4,7 @@ title: Ouvrir une fenêtre et fermer la précédente en C#
 layout: post
 tags: [C#, Code, Développement]
 ---
-Vous avez probablement ce problème, comme moi. Lorsque vous avez deux fenêtre, en C#, à afficher l'une après l'autre, la solution la plus évidente est d'appeler la méthode `Close()`  sur la première et d'afficher la seconde. Sauf que cette solution ne résout pas le problème.
+Vous avez probablement ce problème, comme moi. Lorsque vous avez deux fenêtre, en C#, à afficher l'une après l'autre, la solution la plus évidente est d'appeler la méthode `Close()`  sur la première et d'afficher la seconde. Sauf que cette solution ne résout pas le problème.  <!--more-->
 
     private void OnButton1Click(object sender, EventArgs e)
     {

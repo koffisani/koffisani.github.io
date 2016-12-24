@@ -15,7 +15,7 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content|truncate(500) }} <br/><a href="{{ post.url }}">Lire plus ...</a> 
+    {{ post.content| split: '<!--more-->' | first }} <br/><a href="{{ post.url }}">Lire plus ...</a> 
   </div>
   {% endfor %}
 </div>

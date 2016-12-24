@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <div class="post">
@@ -51,3 +52,7 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+
+<div class="comments">
+    {% include disqus.html disqus_identifier=site.disqus_identifier %}
+  </div>

@@ -8,8 +8,10 @@ tagline: "A log of my everyday coding life"
 description: "Let me land my everyday coding life here"
 paginate: 5
 timezone: Africa/Libreville
+encoding: utf-8
 
 url: "https://koffisani.github.io"
+disqus_identfier: koffisani
 twitter_username: koffisani
 github_username:  koffisani
 linkedin_username: koffisani
@@ -38,6 +40,7 @@ gems:
   - jekyll-paginate
   - jekyll-avatar
   - jekyl-gist
+  - jekyll-mentions
 
 twitter:
   username: koffisani

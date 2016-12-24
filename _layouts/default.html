@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr-FR">
 
   <head>
     {% if site.enforce_ssl %}
@@ -14,7 +14,7 @@
       </script>
     {% endif %}
     {% include head.html %}
-  </head> 
+  </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXNLTDM"
@@ -26,6 +26,10 @@
     <div class="content container">
       {{ content }}
     </div>
+
+    <footer class="footer">
+      {% if site.github_username %} <a href="https://github.com/{{ site.github_username }}">Gith</a> {% endif %}
+    </footer>
 
   </body>
 </html>
