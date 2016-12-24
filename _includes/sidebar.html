@@ -12,7 +12,7 @@
       <li class="sidebar-nav-item">
         <a href="https://github.com/koffisani">View me on GitHub</a>
       </li>
-      
+
       <li class="sidebar-nav-item">
         <a href="/github-games">Jeu Tétris en JavaScript</a>
       </li>
@@ -37,7 +37,10 @@
       <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></li>
       <li class="sidebar-nav-item">Currently v{{ site.version }}</li-->
     </ul>
-
+    {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" >{% include svg-icons/github.html %}</a>{% endif %}
+    {% if site.twitter_username %}<a href="https://www.twitter.com/{{ site.twitter_username }}" >{% include svg-icons/twitter.html %}</a>{% endif %}
+    {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" >{% include svg-icons/linkedin.html %}</a>{% endif %}
+    {% if site.fb_username %}<a href="https://www.facebook.com/{{ site.fb_username }}" >{% include svg-icons/facebook.html %}</a>{% endif %}
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
