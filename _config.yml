@@ -1,7 +1,7 @@
 excerpt_separator: ""
 highlighter: pygments
 markdown: kramdown
-url: https://koffisani.github.io
+url: http://code.koffisani.ga
 highlighter: rouge
 title: "Koffi Sani on GitHub"
 tagline: "A log of my everyday coding life"
@@ -10,7 +10,7 @@ paginate: 5
 timezone: Africa/Libreville
 encoding: utf-8
 
-url: "https://koffisani.github.io"
+url: "http://code.koffisani.ga"
 disqus_identfier: koffisani
 twitter_username: koffisani
 github_username:  koffisani
@@ -27,7 +27,7 @@ services:
 
 
 #HTTPS enforce
-enforce_ssl : koffisani.github.io
+#enforce_ssl : koffisani.github.io
 
 #github: [metadata]
 #  kramdown:
