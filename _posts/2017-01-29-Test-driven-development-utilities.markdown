@@ -1,7 +1,7 @@
 ---
 published: true
 title: Test driven development utilities
-description: Ceci est une simple API (Aplication Programming Interface) créé à l'aide du micro-framework Slim Framework de PHP.
+description: In computer programming, unit testing is a software testing method by which individual units of source code, sets of one or more computer program modules together with associated control data, usage procedures, and operating procedures, are tested to determine whether they are fit for use.
 layout: post
 tags: [Programming, Code, Best Pratices]
 categories: [Development]
