@@ -48,4 +48,4 @@ add_action( 'wp_enqueue_scripts', 'koffisani_scripts' );
 C'est donc la meilleure manière d'ajouter ces fichiers à WordPress. Non pas dans le bloc `<head></head>` des fichiers de vue.
 
 ## Conclusion
-Avant de vous lancer dans la création d'un outil qui dépendant d'un autre, renseignez-vous sur les bonnes pratiques, comment l'existant fonctionne et comment interagir avec ce dernier.
+Avant de vous lancer dans la création d'un outil dépendant d'un autre, renseignez-vous sur les bonnes pratiques, comment l'existant fonctionne et comment interagir avec ce dernier.
