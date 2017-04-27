@@ -21,7 +21,7 @@ Lorsque pour la première fois je m'étais lancé, je ne savais pas comment un t
 
 Et je crois ainsi que si l'on veut créer un thème WordPress, il faut donc s'attarder sur son architecture. Et pour ceci, il y a [un plugin développeur officiel](https://wordpress.org/plugins/developer/), qui permet au développeur de savoir sur chacune des pages qu'il affiche, toutes les autres fichiers qui ont été inclus.
 
-## Partir avec le template _ s (underscores)
+## Partir avec le template _s (underscores)
 [Underscores](http://underscores.me/) est un template standard de thème WordPress. Il fournit les fonctionnalités et fichiers de base d'un thème. Il vous permet de démarrer à zéro avec un minimum vital.
 
 ## Utiliser les bonnes manières selon WordPress
@@ -46,3 +46,6 @@ Et enfin demander à WordPress de considérer cette méthode au chargement des s
 add_action( 'wp_enqueue_scripts', 'koffisani_scripts' );
 ```
 C'est donc la meilleure manière d'ajouter ces fichiers à WordPress. Non pas dans le bloc `<head></head>` des fichiers de vue.
+
+## Conclusion
+Avant de vous lancer dans la création d'un outil qui dépendant d'un autre, renseignez-vous sur les bonnes pratiques, comment l'existant fonctionne et comment interagir avec ce dernier.
