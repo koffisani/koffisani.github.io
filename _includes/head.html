@@ -80,7 +80,7 @@
 {% endif %}
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <meta content="{{ site.url }}/about/" property="article:author">
+  <meta content="https://www.facebook.com/koffisani" property="article:author">
 {% endif %}
 {% if page.header-img %}
   <meta content="{{site.url}}/img/{{ page.header-img }}" property="og:image">
@@ -122,3 +122,7 @@
 
 <!-- PICTURE FILL SCRIPT -->
 <!--script src="/public/js/picturefill.min.js" async></script-->
+
+<!-- INLINE TWEET -->
+<!--script src="/public/js/inline-tweet.min.js"></script-->
+<script src="/public/js/inline-tweet.js"></script>
