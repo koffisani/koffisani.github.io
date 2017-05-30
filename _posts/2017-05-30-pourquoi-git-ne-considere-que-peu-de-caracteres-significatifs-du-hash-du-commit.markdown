@@ -1,7 +1,7 @@
 ---
 published: true
 title: Pourquoi Git ne considère que peu de caractères dans le hash du commit
-description: S'il y a quelque chose qui doit vous surprendre quand on est débutant, c'est le hash des commits dans Git sont longs; et pourtant on n'a pas besoin d'autant de caractères pour identifier les commits.
+description: Le hash des commits dans Git sont longs; et pourtant on n'a pas besoin d'autant de caractères pour identifier les commits.
 layout: post
 header-img: branching-illustration@2x.png
 tags: [Programming, Code, Git, GitHub, GitLab]
