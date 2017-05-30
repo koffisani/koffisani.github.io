@@ -1,14 +1,14 @@
 ---
 published: true
 title: Pourquoi Git ne considère que peu de caractères dans le hash du commit
-description: Le hash des commits dans Git sont longs; et pourtant on n'a pas besoin d'autant de caractères pour identifier les commits.
+description: Le hash des commits dans Git est long; et pourtant on n'a pas besoin d'autant de caractères pour identifier un commit.
 layout: post
 header-img: branching-illustration@2x.png
 tags: [Programming, Code, Git, GitHub, GitLab]
 categories: [Development]
 ---
 
-S'il y a quelque chose qui doit vous surprendre quand on est débutant, c'est le hash des commits dans Git sont longs; et pourtant on n'a pas besoin d'autant de caractères pour identifier les commits.<!--more--> En effet, à chacun des commits, Git affecte un code appelé hash, lequel code est unique dans tout le repertoire. Ce code est utile pour toute opération autour du commit concerné : `checkout`, `reset`, `rebase`, `diff`... C'est gênant de de devoir saisir ou copier/coller une longue chaine de caractères (40 caractères) pour effectuer une action sur un commit.
+S'il y a quelque chose qui doit vous surprendre quand on est débutant, c'est que le hash des commits dans Git est si long; et pourtant on n'a pas besoin d'autant de caractères pour identifier un commit.<!--more--> En effet, à chacun des commits, Git affecte un code appelé hash, lequel code est unique dans tout le repertoire. Ce code est utile pour toute opération autour du commit concerné : `checkout`, `reset`, `rebase`, `diff`,... C'est gênant de devoir saisir ou copier/coller une longue chaine de caractères (40 caractères) pour effectuer une action sur un commit.
 
 Lors de l'affichage du log (`git log`), Git affiche ce qui suit :
 
