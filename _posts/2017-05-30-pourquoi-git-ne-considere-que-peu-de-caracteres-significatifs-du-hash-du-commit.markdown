@@ -37,4 +37,4 @@ error: short SHA1 8ea4 is ambiguous.
 fatal: ambiguous argument '8ea4': unknown revision or path not in the working tree.
 ```
 
-#### Inspiré de Stack Overflow.
+#### Inspiré de [Stack Overflow](https://stackoverflow.com/q/18134627/3156582).
