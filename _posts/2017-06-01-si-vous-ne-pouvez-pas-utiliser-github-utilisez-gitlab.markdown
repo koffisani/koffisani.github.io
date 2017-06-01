@@ -3,7 +3,6 @@ published: true
 title: Si vous ne pouvez pas utiliser Github, utilisez Gitlab
 description: Gitlab vous offre gratuitement ce que Github vous fait payer; il ne faut donc pas retourner dans le chaos; il faut penser à Gitlab.
 layout: post
-header-img: gitlab-github-comparaison.png
 tags: [Programming, Code, Git, GitHub, GitLab]
 categories: [Development]
 ---
