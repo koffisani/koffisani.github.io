@@ -1,7 +1,7 @@
 ---
 published: true
 title: Ces 28 réalités que vous ignorez à propos de WordPress
-description: Le hash des commits dans Git est long; et pourtant on n'a pas besoin d'autant de caractères pour identifier un commit.
+description: Beaucoup de média, de blogs et de sites de grande renommée se servent aujourd'hui de WordPress, à l'instar de Quartz (qz.com), Virgin (virgin.com), Chan Zuckerberg Intiniative (chanzuckerberg.com), et bien d'autres.
 layout: post
 header-img: wordpress-facts.png
 tags: [WordPress, Content, SEO, Blog, Publishing, Content Management]
