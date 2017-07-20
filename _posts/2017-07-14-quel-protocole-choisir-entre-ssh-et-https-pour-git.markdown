@@ -1,7 +1,7 @@
 ---
-published: true
+published: false
 title: Quel protocole choisir entre SSH et HTTPS avec GIT
-description: Lorsqu'il s'agit d'interagir avec un serveur Git, on a le choix entre le SSH et le HTTP(S). Mais le Lequel choisir ?
+description: Lorsqu'il s'agit d'interagir avec un serveur Git, on a le choix entre le SSH et le HTTPS. Mais le Lequel choisir ?
 layout: post
 tags: [Code, Git, Github, Gitlab, Vesioning]
 categories: [Git]
