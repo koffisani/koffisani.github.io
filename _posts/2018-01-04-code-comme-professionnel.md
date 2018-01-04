@@ -3,11 +3,10 @@ published: true
 title: Votre code ne vous montre pas professionnel ou comment s'y prendre  ?
 description: Ce qu'il faut savoir lorsqu'on utilise des dépendances.
 layout: post
-header-img: git-hub-lab.png
 tags: [Code, Composer, Git, npm]
 categories: [Code]
 ---
-Que vous utilisez PHP, NodeJS, Ruby ou Python, presque tous les langages de programmation d’aujourd’hui disposent d’un outil de gestion de dépendances. Qu’il s’appelle Composer pour PHP, npm pour NodeJS, pip pour Python, …, leur objectif est le même : faciliter la gestion des dépendances. 
+Que vous utilisez PHP, NodeJS, Ruby ou Python, presque tous les langages de programmation d’aujourd’hui disposent d’un outil de gestion de dépendances. Qu’il s’appelle Composer pour PHP, npm pour NodeJS, pip pour Python, …, leur objectif est le même : faciliter la gestion des dépendances.<!--more-->
 
 Dans PHP, l’utilisation de ce gestionnaire se remarque par deux fichiers `composer.json` et `composer.lock` et un dossier `vendor/`. Avec l’utilisation d’un gestionnaire de version tel que Git, vous n’avez plus besoin de vous déplacer avec le dossier `vendor/`, il suffit qu’il y ait les deux fichiers `composer`. Une commande composer update dans le dossier permet de télécharger les dépendances (à jour). C’est très utile lors de l’intégration continue et du déploiement continu.
 Lors d’une récente expérience de prise en main du code écrit par un collègue, j’ai découvert cet aspect inconnu de beaucoup que je partage ici. 
