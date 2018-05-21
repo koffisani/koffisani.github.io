@@ -1,6 +1,6 @@
 ---
 published: true
-title: Comment bie démarrer son projet en local
+title: Comment bien démarrer son projet en local
 description: Lorsqu'il s'agit de démarrer un projet en local en partant d'un code source issu de Github, beaucoup de développeurs éprouvent de grandes difficultés.
 layout: post
 header-img: classroom.png
