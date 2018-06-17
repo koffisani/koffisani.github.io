@@ -3,14 +3,14 @@ highlighter: pygments
 markdown: kramdown
 url: http://code.koffisani.ga
 highlighter: rouge
-title: "Koffi Sani on GitHub"
-tagline: "A log of my everyday coding life"
-description: "Let me land my everyday coding life here"
+title: "Koffi Sani on Code"
+tagline: "Un log de mes activités de conception de logiciels"
+description: "Permettez que je parle ici de ma vie de concepteur de logiciels"
 paginate: 5
-timezone: Africa/Libreville
+timezone: Africa/Lomé
 encoding: utf-8
 
-url: "http://code.koffisani.ga"
+url: "https://code.koffisani.ga"
 disqus_identfier: koffisani
 twitter_username: koffisani
 github_username:  koffisani
@@ -49,7 +49,7 @@ facebook:
   app_id: 1684328031825738
   publisher: 1684328031825738
 
-logo: /img/koffi.jpg
+logo: /img/sani-koffi.jpg
 social:
   name: Koffi Sani
   links:
