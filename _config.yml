@@ -1,7 +1,6 @@
 excerpt_separator: ""
 highlighter: pygments
 markdown: kramdown
-url: http://code.koffisani.ga
 highlighter: rouge
 title: "Koffi Sani on Code"
 tagline: "Un log de mes activités de conception de logiciels"
@@ -26,8 +25,6 @@ services:
       - { name: twig.extension }
 
 
-#HTTPS enforce
-#enforce_ssl : koffisani.github.io
 
 #github: [metadata]
 #  kramdown:
@@ -39,7 +36,7 @@ gems:
   - jekyll-coffeescript
   - jekyll-paginate
   - jekyll-avatar
-  - jekyl-gist
+  - jekyll-gist
   - jekyll-mentions
 
 twitter:

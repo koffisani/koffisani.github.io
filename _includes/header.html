@@ -1,0 +1,53 @@
+<div class="header">
+  <div class="header-sticky">
+    <div class="header-image-container">
+      <div class="header-img" style="background-image: url('/img/github.io-image.png');
+      opacity: 0.592857;">
+        Header
+      </div>
+    </div>
+    <header class="header-about">
+      <a class="logo" href="/" style="background-image: url('/img/sani-koffi.jpg')">{{ site.title }}</a>
+      <h1 class="titre">{{ site.title }}</h1>
+      <p class="lead">{{ site.description }}</p>
+      <ul class="header-nav">
+        <li class="header-nav-item home {% if page.title == "Home" %} active{% endif %}">
+          <a href="/"><i class="fas fa-home"></i></a>
+        </li>
+        <li class="gh">
+          {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fab fa-github"></i></a>{% endif %}
+        </li>
+        <li class="twtr">
+          {% if site.twitter_username %}<a href="https://www.twitter.com/{{ site.twitter_username }}"  target="_blank"><i class="fab fa-twitter"></i></a>{% endif %}
+        </li>
+        <li class="lkdn">
+          {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"  target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
+        </li>
+        <li class="fb">
+          {% if site.fb_username %}<a href="https://www.facebook.com/{{ site.fb_username }}"  target="_blank"><i class="fab fa-facebook"></i></a>{% endif %}
+        </li>
+
+        <!--li class="sidebar-nav-item">
+          <a href="/github-games">Jeu Tétris en JavaScript</a>
+        </li-->
+
+        {% comment %}
+          The code below dynamically generates a sidebar nav of pages with
+          `layout: page` in the front-matter. See readme for usage.
+        {% endcomment %}
+
+        {% assign pages_list = site.pages %}
+        {% for node in pages_list %}
+          {% if node.title != null %}
+            {% if node.layout == "page" %}
+              <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
+                <a href="{{ node.url }}">{{ node.title }}</a>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </header>
+    
+  </div>
+</div>

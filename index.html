@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Home
+title: Accueil
 ---
 
 <div class="posts">
-  <h1>Mes derniers articles </h1>
   {% for post in paginator.posts %}
   <div class="post">
     <h2 class="post-title">
@@ -20,19 +19,21 @@ title: Home
   {% endfor %}
 </div>
 
-<div class="pagination">
+<nav aria-label="Page navigation">
+<ul class="pagination justify-content-end">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+    <li class="page-item"><a class="page-link" href="/page{{paginator.next_page}}">Anciens</a></li>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <li class="page-item older disabled"><a href="#" class="page-link">Anciens</a></li>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
+      <li class="page-item"><a class="page-link" href="/">Récents</a></li>
     {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+      <li class="page-item"><a class="page-link" href="/page{{paginator.previous_page}}">Récents</a></li>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <li class="page-item disabled"><a href="#" class="page-link">Récents</a></li>
   {% endif %}
-</div>
+</ul>
+</nav>
