@@ -9,7 +9,7 @@ categories: [Git]
 ---
 
 Ce n'est pas une surprise de s'inquiéter lorsqu'il s'agit de choisir entre le SSH et le HTTP(S) pour échanger avec un serveur Git.<!--more--> En réalité, Gitlab et Github (par exemple) offrent deux protocoles de communication entre le client et le serveur Git.
-<img width="500" src="/img/ssh-https.png" alt="clonez ce répertoire" /> 
+<img width="500" src="/img/ssh-https.png" alt="clonez ce répertoire" class="float-right"/> 
 Il est très justifié de pousser sa curiosité sur la différence entre les deux et lequel choisir.
 
 ## Le SSH

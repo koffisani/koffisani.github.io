@@ -8,7 +8,7 @@ tags: [MathJax, maths, web, javascript]
 categories: [Developpement]
 ---
 Beaucoup de développeurs se demandent comment écrire des formules mathématiques sur le web, comment faire comme sur Wikipedia et avoir de belles formules sur ses pages ? D’autres développeurs y ont pensé, et ont trouvé la solution. <!--more-->
-![MathJax](/img/mathjax.png)
+<img src="/img/mathjax.png" alt="Mathjax" class="img-fluid">
 
 `MathJax` est une librairie `JavaScript` permettant aux développeurs de faire interpréter les scripts `LaTeX` et afficher les formules mathématiques. Elle utilise le CSS avec des web fonts, au lieu d’images bitmap ou Flash; elle est modulaire, tant au niveau de la saisie des scripts que de l’affichage des formules. Elle fournit des fonctionnalités de zoom accessible à tous, et permet de copier les équations vers d’autres logiciels comme ceux de la suite Office de Microsoft.
 

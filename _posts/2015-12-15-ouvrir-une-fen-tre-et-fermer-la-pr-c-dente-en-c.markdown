@@ -16,5 +16,3 @@ Vous avez probablement ce problème, comme moi. Lorsque vous avez deux fenêtre,
     }
 
 Tout compte fait, vous avez ce que vous voulez.
-
-PS : Cet [article](http://koffisani.ga/2015/09/07/c-ouvrir-une-fenetre-et-fermer-la-precedente/) est initialement publié sur mon [blog](http://koffisani.ga).

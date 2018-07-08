@@ -9,7 +9,7 @@ categories: [Git]
 ---
 Vous ne serez jamais autant fustré de ne pas pouvoir prouver vos compétences en tant que développeur devant un recruteur. Vous êtes partis à un entretien sans votre ordinateur, et en quête de justificatifs de vos compétences, vous n'avez rien à montrer. Vous êtes élève et touts vos TPs sont sur votre ordinateur, en local, et ne peuvent être vus que par ceux qui ont accès à votre machine. Savez-vous que les recruteurs sont désormais implicitement à l'affût d'informations sur votre vie sociale ? <!--more-->
 
-![Git](/img/gitlab-github-comparison.png)
+<img src="/img/gitlab-github-comparison.png" alt="Github vs Gitlab" class="img-fluid">
 
 Un bon profil **Github** ou **Gitlab** peut contribuer à une bonne impression au cours d'un recrutement. En effet, l'horreur, c'est lorsqu'on prétend être ce qu'on ne peut pas prouver, et dont il n'y a pas de trace. Lorsque j'étais étudiant en fin de cycle, j'étais confronté à ce souci : je ne m'affichais pas sur Github en tant que développeur. Pendant que je cherchais mon stage de fin de formation, un recruteur me demanda :
 

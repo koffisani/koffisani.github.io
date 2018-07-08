@@ -11,7 +11,7 @@ Lorsqu'il s'agit du monde scientifique, le sérieux, la discipline et la rigueur
 
 Ainsi, `LaTeX` est un langage introduit dans la rédaction des documents scientifiques depuis les années 1983 par [Leslie Lamport](https://fr.wikipedia.org/wiki/Leslie_Lamport) et qui est dérivé du `TeX` de [Donald Knuth](https://fr.wikipedia.org/wiki/Donald_Knuth). Ce langage et ses éditeurs et compilateurs rivalisent toujours le logiciel de traitement de textes Word de Microsoft. L'un des grands défis pour celui qui veut l'utiliser est son installation.
 
-![Overleaf](/img/templates-gallery-overleaf.png)
+<img src="/img/templates-gallery-overleaf.png" alt="Overleaf" class="img-fluid">
 
 Avec l'expansion du Cloud Computiing, une solution a vu le jour: il s'agit de la plateforme [Overleaf](https://www.overleaf.com/) qui est conçu pour épargner les scientifiques de la dure tâche d'installation de cet ensemble de logiciel. Il suffit donc d'y créer un compte, et de démarrer l'édition de son document.
 
