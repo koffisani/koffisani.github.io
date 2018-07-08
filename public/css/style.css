@@ -125,6 +125,11 @@ blockquote p {
     font-weight: 500;
 }
 
+pre {
+    background: #002b36;
+    color: #cccccc;
+}
+
 @media screen and (max-width: 600px) {
     .header .logo {
         right: 50%;
