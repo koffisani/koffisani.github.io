@@ -12,7 +12,9 @@ title: Accueil
       </a>
     </h2>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date"><i class="fas fa-clock"></i> {{ post.date | date_to_string }}</span>
+    {% if post.categories %} &middot; <i class="fas fa-folder"></i> <small>{{ post.categories | join: ', ' }}</small>{% endif %}
+  {% if post.tags %} &middot; <i class="fas fa-tag"></i> <small>{{ post.tags | join: ', ' }}</small>{% endif %}
 
     {{ post.content| split: '<!--more-->' | first }} <br/><a href="{{ post.url }}">Lire plus ...</a>
   </div>

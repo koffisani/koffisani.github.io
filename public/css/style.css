@@ -11,7 +11,7 @@
     margin-right: 5px;
 }
 
-.header .header-nav li a:hover {
+.header .header-nav li a:hover, .post.fas {
     color: #333333;
 }
 
