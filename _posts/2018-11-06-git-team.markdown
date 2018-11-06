@@ -1,0 +1,44 @@
+---
+published: true
+title: Comment utiliser efficacement Gitlab en équipe et s'éviter un traumatisme
+description: Il ne suffit pas que de savoir coder. Il faut aussi savoir gérer le code.
+layout: post
+header-img: GitLab-vs-GitHub-vs-bitbucket-1.jpg
+tags: [Programming, Code, Best Pratices, Gestion de projets]
+categories: [Code]
+---
+Hier, je partageais mon expérience avec un frère ingénieur et je juge bon de la mettre à la disposition du public.
+
+Git est un outil puissant, très puissant de gestion de version pour les développeurs de logiciels. Et dans une équipe, il est très apprécié, vu la valeur qu'il ajoute en terme de productivité de l'équipe. Si certains sont réticents à l'adopter, ceux qui l'adoptent l'aiment plus que tout. Et je prends régulièrement le temps de partager avec les uns et les autres les bénéfices de son utilisation. D'ailleurs, j'anime des formations sur ce thème et l'introduis à mes étudiants lorsque mes cours sont orientés vers la pratique du développement logiciel. <!--more-->
+
+Vous êtes donc nombreux sur un projet, et avez compris qu'il faut utiuliser un outil de gestion de version, supposons Gitlab (auquel nous nous référons tout le long de l'article). Mais sans surprise, vos collaborateurs l'utilisent jusqu'à en abuser.
+
+Prenons un cas simple : Vous avez poussé votre code vers le serveur Git avant de rentrer à la maison; mais à votre arrivée le lendemain, après rapatriement du code, pour avoir les dernières mises à jour de vos pairs, vous vous trouvez dans la merde. Sans même parvenir à identifier l'utilité, le bien fondé du code écrit par votre collaborateur, vous n'arrivez pas à démarrer.
+
+
+> Vous avez besoin de protéger vos branches : la branche principale et la branche de développement.
+
+
+## Un meilleur modèle de branchement 
+
+Beaucoup de professionnels adoptent et recommandent d'avoir un modèle de branchement avec Git. Il s'agit, comme l'a suggéré [Vincent Driessen sur son blog](https://nvie.com/posts/a-successful-git-branching-model/), il faut avoir une branche par fonctionnalité. Il ne convient pas de tout développer sur une même branche. Ce faisant, il est difficile de se retrouver et éventuellement de debugger son code en cas de dysfontionnement futur.
+
+<img class="img-fluid" src="/img/git-model@2x.png" alt="Modèle de branchement de Git"/>
+
+## Protection des branches contre des abus ou du code non vérifié
+
+Il ne vous suffit pas que d'adopter Git dans votre équipe de développement, en qu'il en résulte pour vous un casse-tête chaque fois qu'un collaborateur pousse du code sur le serveur.
+
+Des solutions telles que Github et Gitlab ont prévu ce scénario : ce développeur qui fait ses travaux pratiques sur votre branche de production et bouscule tout ce que vous aviez pris le temps réaliser.
+
+En utilisant ce modèle de branchement, chaque morceau de code est poussé vers une branche spécifique à la fonctionnalité sur laquelle on a travaillé. Et lorsque la fonctionnalité sera affinée, il suffit de proposer une fusion avec la branche de développement (merge/pull request). Et le team manager se charge rappatrier le code en local et tester avec de fusionner.
+
+Pour protéger une branche sur Gitlab par exemple, il suffit de se rendre dans les paramètres du projet et choisir **Repository** :
+
+<img class="img-fluid" src="/img/settings-gitlab.png" alt="Paramètre du projet Gitlab"/>
+
+Et dérouler la section **Protected branches**
+
+<img class="img-fluid" src="/img/protect-branch.png" alt="Protection de branches dans un projet Gitlab"/>
+
+Et c'est fait. Toutes les fois qu'un collaborateur non autorisé se permettra de pousser du code vers cette branche, il recevra un message d'erreur. Et ce qui vous épargne des casse-têtes habituels.
