@@ -9,13 +9,13 @@ paginate: 5
 timezone: Africa/Lomé
 encoding: utf-8
 
-url: "https://code.koffisani.ga"
+url: "https://code.koffisani.dev"
 disqus_identfier: koffisani
 twitter_username: koffisani
 github_username:  koffisani
 linkedin_username: koffisani
 fb_username: koffisani
-adresse_web: "https://www.koffisani.ga"
+adresse_web: "https://www.koffisani.dev"
 
 #Text extension activation
 services:
