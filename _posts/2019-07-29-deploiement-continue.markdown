@@ -65,7 +65,7 @@ Nous venons configurer des variables d'environnement pour notre application. Ce 
 
 Et sur la plate-forme Gitlab du projet, il faut aller dans les paramètres **Settings** > **CI/CD** > **Variables** où on définira une paire de clé/valeur :
 
-![CI/CD variables](/img/CI-CD-variables.png)
+<img class="img-fluid" src="/img/CI-CD-variables.png" alt="Variables d'environnement CI/CD sur Gitlab"/>
 
 Par exemple, on pourra avoir la clé `NAMECHEAP_SERVER_URL` avec sa valeur `namecheap.com`.
 
