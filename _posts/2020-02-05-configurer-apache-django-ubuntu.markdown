@@ -9,7 +9,7 @@ categories: [Code]
 
 Django est un framework très apprécié de beaucoup de développeurs. Pendant qu'il permet très facilement de développer des applications de manière agile, déployer ses applications peut devenir spécial. Beaucoup d'hébergeurs ne le permettent pas par défaut. 
 
-Quand on décide, éventuellement pour des besoins professionnels de déployer une application en local, on peut être à court d'idée. Voici un guide pour y arriver.
+Quand on décide, éventuellement pour des besoins professionnels de déployer une application en local, on peut être à court d'idée. Voici un guide pour y arriver.<!--more-->
 
 ## Apache et les utilitaires
 Les serveurs web utilisent une technologie appelée CGI (Common Gateway Interface) pour faire exécuter des scripts de langages spécifiques. Pour Django, il s'agit du WSGI, Web Server Gateway Interface. Il fournit une interface pour Apache par exemple afin d'envoyer n'importe quel URL qui nécessite un traitement de Python. 
