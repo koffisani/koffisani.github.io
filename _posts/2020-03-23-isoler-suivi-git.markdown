@@ -1,7 +1,7 @@
 ---
 published: true
 title: Isoler un fichier du suivi de Git
-description: Comment les faire ignorer par Git alors qu'ils étaient suivis initialement.
+description: Comment faire ignorer certains fichiers par Git alors qu'ils étaient initialement suivis .
 layout: post
 tags: [Versioning, Programming, Code, Git]
 categories: [Code]
