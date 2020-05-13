@@ -3,7 +3,7 @@ published: true
 title: Mon parcours pour devenir Github Campus Advisor
 description: Un campus advisor a pour but d'aider les jeunes étudiants à matriser les outils professionnels. Comment suis-je arrivé ?
 layout: post
-header-img: github-campus-advisor.jpg
+header-img: github-campus-advisor.png
 tags: [Versioning, Programming, Code, Git, Mentoring]
 categories: [Code]
 ---
