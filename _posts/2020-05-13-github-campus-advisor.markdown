@@ -22,7 +22,6 @@ C'est ainsi que jusqu'en août 2014, au début de mon stage de fin de formation 
 
 J'explorai donc sur la toile et Git émergea comme solution.
 
-Si vous avez des apports ou recommandations, merci de commenter ci-dessous.
 
 ## Et je suis reparti à IAI pour en parler
 
@@ -70,3 +69,7 @@ Beaucoup d'intérrogations sont à l'ordre du jour, lorsque l'on est enseignant.
 - Ils doivent être à la page des nouvelles technologies au jour le jour.
 
 La tâche est immense. Mais on y arrivera, petit à petit.
+
+
+
+Si vous avez des apports ou recommandations, merci de commenter ci-dessous.
