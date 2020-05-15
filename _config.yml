@@ -38,6 +38,8 @@ gems:
   - jekyll-avatar
   - jekyll-gist
   - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-last-modified-at
 
 twitter:
   username: koffisani
