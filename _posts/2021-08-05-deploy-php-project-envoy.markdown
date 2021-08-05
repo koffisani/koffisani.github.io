@@ -51,3 +51,38 @@ Ceci exécute la tâche `test_ls`. Dans l'ordre :
 - La connexion est établie si les identifiants sont corrects ;
 - Les commandes indiquées dans le bloc correspondant à la tâche sont exécutées ;
 - La connexion est fermée.
+
+## Tâche de déploiement
+### Généralités
+Autrefois, le déploiement se faisait via des connexions FTP. Puis, du SFTP, rsync ou scp. Mais lorsqu'on veut une fluidité et délicatesse dans le déploiement, il s'avère nécessaire de revoir le scénario.
+
+L'utilisation des outils de versionnement est d'une grande utilité pour le développeur. Ceci lui permet beaucoup de choses qu'il n'aurait pu faire sans eux. Lorsqu'on a son code en ligne sur un serveur Gitlab ou Github, on peut utiliser des clés de déploiement pour déploier ses projets. 
+
+Les clés de déploiement sont des clés SSH que l'on génère sur le serveur de destination et dont la partie publique est fournie à Gitlab ou Github. Cette clé renseignée dispose d'un accès en lecture (par défaut) au projet et l'on peut initier un clone ou un pull en se connectant avec la clé, donc depuis le serveur.
+
+### Clé de déploiement
+Pour générer une clé SSH, il faut se connecter au serveur et exécuter la commande suivante :
+```bash
+ssh-keygen -t ed25519 -C "votre adresse email"
+```
+Une série de questions vous seront posées auxquelles vous répondez. Vous pouvez avoir [des détails ici](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+
+Il faut alors ajouter cette clé à votre serveur de gestion de version. 
+- Pour [Github](https://docs.github.com/en/developers/overview/managing-deploy-keys)
+- Pour [Gitlab](https://docs.gitlab.com/ee/user/project/deploy_keys/)
+
+### Adaptation de la tâche
+Nous adaptons notre tâche ici afin de bien atteindre nos objectifs. Nous convenons d'effectuer un premier déploiement manuel avant d'automatiser le reste. Ceci consiste à clone le projet pour une première fois sur le serveur à l'aide de Git. Et le reste des tâches consiste à faire un pull de la branche adéquate ou du tag adéquat.
+
+Ainsi, nous obtenons le script suivant :
+```php
+@servers(['test' => 'user@test.example.com'])
+
+@task('test_ls', ['on' => 'test'])
+    git pull origin master
+    composer update
+    # Exécution d'éventuelles migrations
+@endtask
+```
+
+Voilà. Dans un prochain article, j'aborderai comment utiliser une clé SSH en local au lieu de l'authentification à l'aide du mot de passe.
